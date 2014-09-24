@@ -2,19 +2,13 @@
 
 Okay, I like a challenge. Yeah, lots of people did. Oh right. I forgot about the battle. Son, as your lawyer, I declare y'all are in a 12-piece bucket o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' mess you caused. Yes, I saw. You were doing well, until everyone died. And then the battle's not so bad?
 
-     // test for primitive values 
+    // test for primitive values
+    function isPrimitive(value) {
+      return value !== Object(value);
+    }
 
-     function isPrimitive(value) { 
-
-       return value !== Object(value); 
-
-     } 
-
-     
-
-     isPrimitive([]); -> false 
-
-     isPrimitive(123); -> true 
+    isPrimitive([]); -> false
+    isPrimitive(123); -> true
 
 ## Bendin' in the Wind
 
@@ -27,12 +21,10 @@ Incidentally, you have a dime up your nose. Bender, quit destroying the universe
 -   Hey, guess what you're accessories to.
 
 <table>
-<colgroup>
 <col width="25%" />
 <col width="25%" />
 <col width="25%" />
 <col width="25%" />
-</colgroup>
 <tbody>
 <tr class="odd">
 <td align="left"><p>Bender</p></td>
