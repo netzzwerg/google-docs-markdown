@@ -1,0 +1,12 @@
+{
+  "name": "google-docs-markdown",
+  "version": "0.1.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "htmlparser2": "^3.7.3",
+    "pdc": "^0.2.1"
+  }
+}
