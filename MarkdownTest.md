@@ -16,15 +16,24 @@ Incidentally, you have a dime up your nose. Bender, quit destroying the universe
 
 -   I'm sure those windmills will keep them cool.
 -   Anyhoo, your net-suits will allow you to experience Fry's worm infested bowels as if you were actually wriggling through them.
--   Ugh, it's filthy! Why not create a National Endowment for Strip Clubs while we're at it?
+-   Ugh, it's filthy! Why not
+
+        create()
+
+     a National Endowment for Strip Clubs while we're at it?
+
 -   I could if you hadn't turned on the light and shut off my stereo.
 -   Hey, guess what you're accessories to.
 
+[](#)[](#)
+
 <table>
+<colgroup>
 <col width="25%" />
 <col width="25%" />
 <col width="25%" />
 <col width="25%" />
+</colgroup>
 <tbody>
 <tr class="odd">
 <td align="left"><p>Bender</p></td>
@@ -53,4 +62,9 @@ She also liked to shut up! Look, everyone wants to be like Germany, but do we re
 
 Why yes! Thanks for noticing. Ah, the 'Breakfast Club' soundtrack! I can't wait til I'm old enough to feel ways about stuff! What's with you kids? Every other day it's food, food, food. Alright, I'll get you some stupid food.
 
+## More Resources
+
+[Google](http://www.google.com/)
+
+[Wikipedia](http://www.google.com/url?q=http%3A%2F%2Fwww.wikipedia.org%2F&sa=D&sntz=1&usg=AFQjCNHwBZTStXFWw226luNAcwv3FppyXQ)
 

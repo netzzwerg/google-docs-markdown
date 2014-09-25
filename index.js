@@ -15,6 +15,8 @@ var parser = new htmlparser.Parser({
       }
       if(name === 'body') {
         nodelist = [];
+      } else if (name === 'a' && attributes.href){
+        nodelist.push('<' + name + ' href="' + attributes.href +'">');
       }
     },
     ontext: function(text){
@@ -42,6 +44,7 @@ fs.readFile('MarkdownTest.html', {encoding: 'utf-8'}, function(err,data){
 });
 
 function cleanNodeList(nl) {
+  console.log(nl)
   // clean up pre tag and multi line code blocks 
   nl = nl.replace(/<p><pre>/gi, "<pre>");
   nl = nl.replace(/<\/pre><\/p>/gi, "</pre>");
