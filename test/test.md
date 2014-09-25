@@ -1,6 +1,6 @@
 # The Day The Earth Stood Stupid
 
-Okay, I like a challenge. Yeah, lots of people did. Oh right. I forgot about the battle. Son, as your lawyer, I declare y'all are in a 12-piece bucket o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' mess you caused. Yes, I saw. You were doing well, until everyone died. And then the battle's not so bad?
+Okay, I like a challenge. Yeah, lots of people did. Oh right. I forgot about the battle. Son, as your lawyer, I declare y'all are in a 12-piece bucket o' trouble. But I *done* struck you a deal: Five hours of **community** service cleanin' up that ol' mess you caused. Yes, I saw. You were doing well, until everyone died. And then the battle's not so bad?
 
     // test for primitive values
     function isPrimitive(value) {
@@ -19,8 +19,6 @@ Incidentally, you have a dime up your nose. Bender, quit destroying the universe
 -   Ugh, it's filthy! Why not `create()` a National Endowment for Strip Clubs while we're at it?
 -   I could if you hadn't turned on the light and shut off my stereo.
 -   Hey, guess what you're accessories to.
-
-[](#)[](#)
 
 <table>
 <colgroup>
