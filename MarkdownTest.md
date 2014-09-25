@@ -16,12 +16,7 @@ Incidentally, you have a dime up your nose. Bender, quit destroying the universe
 
 -   I'm sure those windmills will keep them cool.
 -   Anyhoo, your net-suits will allow you to experience Fry's worm infested bowels as if you were actually wriggling through them.
--   Ugh, it's filthy! Why not
-
-        create()
-
-     a National Endowment for Strip Clubs while we're at it?
-
+-   Ugh, it's filthy! Why not `create()` a National Endowment for Strip Clubs while we're at it?
 -   I could if you hadn't turned on the light and shut off my stereo.
 -   Hey, guess what you're accessories to.
 
@@ -61,6 +56,8 @@ She also liked to shut up! Look, everyone wants to be like Germany, but do we re
 ## The Luck of the Fryrish
 
 Why yes! Thanks for noticing. Ah, the 'Breakfast Club' soundtrack! I can't wait til I'm old enough to feel ways about stuff! What's with you kids? Every other day it's food, food, food. Alright, I'll get you some stupid food.
+
+![](images/image00.jpg)
 
 ## More Resources
 

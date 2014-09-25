@@ -4,7 +4,7 @@ var pandoc = require('pdc');
 
 var nodelist = [];
 var codeTagOpen = false;
-var codeClassName = '';
+var codeClassName = 'c5';
 var parser = new htmlparser.Parser({
     onopentag: function(name, attributes) {
       if(attributes.class === codeClassName){
@@ -17,6 +17,8 @@ var parser = new htmlparser.Parser({
         nodelist = [];
       } else if (name === 'a' && attributes.href){
         nodelist.push('<' + name + ' href="' + attributes.href +'">');
+      } else if (name === 'img' && attributes.src){
+        nodelist.push('<' + name + ' src="' + attributes.src +'">');
       }
     },
     ontext: function(text){
@@ -44,12 +46,16 @@ fs.readFile('MarkdownTest.html', {encoding: 'utf-8'}, function(err,data){
 });
 
 function cleanNodeList(nl) {
-  console.log(nl)
+
   // clean up pre tag and multi line code blocks 
   nl = nl.replace(/<p><pre>/gi, "<pre>");
   nl = nl.replace(/<\/pre><\/p>/gi, "</pre>");
   nl = nl.replace(/<\/pre><pre>/gi, "\n");
   nl = nl.replace(/<\/pre>+\s+<pre>/gi, "\n");
+
+  // clean up inline code
+  nl = nl.replace(/<\/span><pre>/gi, "</span><code>");
+  nl = nl.replace(/<\/pre><span>/gi, "</code><span>");
 
   // remove all span tags
   nl = nl.replace(/<span>/gi, "");
@@ -63,7 +69,7 @@ function parseStyleSheet(text) {
   var slicedText = text.slice(index - 100, index);
   var selectorEnd = slicedText.lastIndexOf('{');
   var selectorStart = slicedText.lastIndexOf('.');
-  codeClassName = slicedText.slice(selectorStart+1, selectorEnd);
+  //codeClassName = slicedText.slice(selectorStart+1, selectorEnd);
 }
 
 function createMarkdownFile(html) {
